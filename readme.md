@@ -5,6 +5,10 @@ satellite whose input and output are a chat platform instead of a
 microphone: messages sent to the bot become HiveMind utterances, and the
 hub's spoken replies are posted back into the same Telegram chat.
 
+New here? [docs/setup.md](docs/setup.md) walks through all of this from
+scratch, including the `allow-msg` whitelist step below and how to
+verify a message round-trips.
+
 ## Getting a bot token
 
 Talk to [@BotFather](https://t.me/BotFather) on Telegram, send `/newbot`,
